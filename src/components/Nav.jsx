@@ -17,7 +17,7 @@ function Nav() {
             </div>
         <div className="nav">
             <div className={select ? "nav-link" : "hide nav-link"}>
-                <Link to="/" className="link">Home</Link>
+                <Link to="/portfolio" className="link">Home</Link>
                 <Link to="/projects" className="link">Projects</Link>
                 <Link to="/skill" className="link">Skills</Link>
                 <Link to="/resume" className="link">Resume</Link>
