@@ -7,9 +7,10 @@ import App from './components/App';
 import "./App.css";
 
 ReactDOM.render(
-   <BrowserRouter basename={process.env.PUBLIC_URL}>
+   <BrowserRouter >
         <App/>
      </BrowserRouter>     
     ,
     document.querySelector('#root')
 )
+// basename={process.env.PUBLIC_URL}
