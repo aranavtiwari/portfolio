@@ -13,7 +13,7 @@ import Random from './Random';
         
         <div>
             <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/portfolio" exact component={Home} />
             <Route path="/projects" exact component={Projects} />
             <Route path="/resume" exact component={Resume} />
             <Route path="/skill" exact component={Skill} />
