@@ -1,7 +1,11 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Nav from './Nav'
 import img from "../img/resumelogo.png";
 import VanillaTilt from "vanilla-tilt";
+
+
+
+
 
 function Tilt(props) {
     const { options, ...rest } = props;
@@ -28,6 +32,7 @@ const Resume = () => {
       gyroscope: false, 
  }
 
+
  //const projectName = [
    // {class:"float-right", img:pone, heading:"World Affair", description:"I design the user experience and then style the user interface myself for almost all of the projects I work on.I am flexible in medium and rigid in quality."},
     //{ direction:"reverse", class:"float-left", img:ptwo, heading:"Web Panda", description:" Have experience in React, Next and HTML5/CSS/JS along with several templating systems.I prefer to write my own components, and styles that go with it. I want to have absolute control over all the pixels." },
@@ -48,11 +53,13 @@ const Resume = () => {
                </div>
             <div className="resume-botton">
               <div className="resume-link">
-              <a href="https://drive.google.com/file/d/18lQRjWqI6F4_-BhA2m3-ZnFGl_lofUlG/view?usp=sharing"><i class="fas fa-download"></i>Download Resume</a>
+              <a href="https://drive.google.com/file/d/1cCiQCLvLAgLkNJ5ZfsZU8wW1OjtZ6qep/view?usp=sharing"><i class="fas fa-download"></i>Download Resume</a>
               </div>
              
             </div>
           </div>
+          {/* ================================================ */}
+          
         </div>
     )
 }
