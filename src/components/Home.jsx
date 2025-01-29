@@ -19,12 +19,10 @@ function Tilt(props) {
 
 function Home() {
   const options = {
-    scale: 1.3,
+    scale: 1.2,
     speed: 7000,
     max: 24,
     gyroscope: false, 
-
-    
   };
 
   return (
@@ -38,7 +36,7 @@ function Home() {
                             Hi, I am Aranavsheel Tiwari
                         </li>
                         <li className="container-right-text">
-                            A Full Stack Web Developer
+                            A Software Developer
                         </li>
                         <li className="container-right-text">
                             I like to code, design,<br/> sometime writes
@@ -55,7 +53,7 @@ function Home() {
                               <a href="https://github.com/aranavtiwari?tab=repositories"><i class="fab fa-github"></i></a>
                               <a href="https://www.linkedin.com/in/aranavsheel-tiwari-93bb96204/"><i class="fab fa-linkedin"></i></a>
                               <a href="mailto:aranavstiwari@gmail.com"><i class="far fa-envelope"></i></a>
-                              <a href="#"><i class="fab fa-behance"></i></a>
+                              <a href="https://leetcode.com/u/Aranavsheel/"><i class="fab fas fa-code"></i></a>
                             </div>
                         </li>
 
