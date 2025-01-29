@@ -42,7 +42,6 @@ const Projects = () => {
 
  const projectShow = () => {
   return projectName.map((data) => {
-      console.log(data.img)
       return (
           <div className="project" id={data.direction}>
               <div className="project-left">
