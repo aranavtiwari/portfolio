@@ -31,11 +31,51 @@ const Projects = () => {
  }
 
  const projectName = [
-    { weblink:"https://aranavtiwari.github.io/WA/", gitlink:"https://github.com/aranavtiwari/WA", link:"linkweb", iconweb:"fas fa-globe", nameweb:"Web App" ,icongit:"fab fa-github",gitname:"Github Org" , class:"float-right", img:imgone, heading:"World Affair", description:`World Affair is Webapp where you can find most underrated news around the world.\
-                                                                             I designed and developed the frontend with React/Sass from scratch `},
-    {iconweb:"fas fa-globe", nameweb:"Web App", weblink:"https://webpanda.netlify.app/" ,icongit:"fab fa-github", gitname:"Github Org", gitlink:"https://github.com/aranavtiwari/ast-website",link:"linkweb", rolecss:"role",   role:"Freelance Frontend",  direction:"reverse", class:"float-left", img:imgtwo, heading:"Web Panda", description:"Web Panda was a startup which offers web development service to their client with source code.\
-                                                                                            I worked on the landing page and the entire website from scratch. I utilized react-static to generate static pages with instant navigation. I also organized Design Sprints to target specific audiences, started from scratch with UI/UX to develop a unique brand identity for the company. Made personalized icons. illustrations, animations, etc." },
-    {iconweb:"fas fa-globe", nameweb:"Web App", weblink:"#" ,icongit:"fab fa-github", gitname:"Github Org", gitlink:"https://github.com/aranavtiwari/Events-MERN",link:"linkweb",   class:"float-right ",  img:imgthree, heading:"Events", description:"Events is a platform where you can views other's personal event's or memories, and you can also share your events and memories.You can give like if you like any events."},
+    { weblink:"https://aranavtiwari.github.io/WA/", 
+        gitlink:"https://github.com/aranavtiwari/WA", 
+        link:"linkweb", 
+        iconweb:"fas fa-globe", 
+        nameweb:"Web App" ,
+        icongit:"fab fa-github",
+        gitname:"Github Org" , 
+        class:"float-right", 
+        img:imgone, 
+        heading:"World Affair", 
+        description:`World Affair is Webapp where you can find most underrated news around the world.\
+                    I designed and developed the frontend with React/Sass from scratch `
+    },
+                                                                             
+    {iconweb:"fas fa-globe", 
+        nameweb:"Web App", 
+        weblink:"https://webpanda.netlify.app/" ,
+        icongit:"fab fa-github",
+        gitname:"Github Org", 
+        gitlink:"https://github.com/aranavtiwari/ast-website",
+        link:"linkweb", 
+        rolecss:"role",   
+        role:"Freelance Frontend",  
+        direction:"reverse", 
+        class:"float-left", 
+        img:imgtwo, 
+        heading:"Web Panda", 
+        description:"Web Panda was a startup which offers web development service to their client with source code.\
+        I worked on the landing page and the entire website from scratch. I utilized react-static to generate \
+        static pages with instant navigation. I also organized Design Sprints to target specific audiences, started \
+        from scratch with UI/UX to develop a unique brand identity for the company. Made personalized icons. illustrations, animations, etc." },
+
+    {iconweb:"fas fa-globe", 
+        nameweb:"Web App", 
+        weblink:"#" ,
+        icongit:"fab fa-github", 
+        gitname:"Github Org", 
+        gitlink:"https://github.com/aranavtiwari/Events-MERN",
+        link:"linkweb",   
+        class:"float-right ",  
+        img:imgthree, 
+        heading:"Events", 
+        description:"Events is a platform where you can views other's personal event's or \
+        memories, and you can also share your events and memories.You can give like if you \
+        like any events."},
    
  ];
 

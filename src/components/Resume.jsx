@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import Nav from './Nav'
-import img from "../img/resumelogo.png";
 import VanillaTilt from "vanilla-tilt";
 
 function Tilt(props) {
@@ -47,14 +46,14 @@ const Resume = () => {
         {/* PDF Viewer Section */}
         <div className="pdf-viewer-container">
           <iframe
-            src="https://drive.google.com/file/d/1cCiQCLvLAgLkNJ5ZfsZU8wW1OjtZ6qep/preview"
+            src="https://drive.google.com/file/d/17MTJPltlSidgkFcZZvgkfjfsv1gM4RxJ/preview"
             width="80%"
             height={iframeHeight}
             title="Resume PDF Viewer"
             allow="autoplay"
           >
             Your browser does not support PDF embeds. 
-            <a href="https://drive.google.com/file/d/1cCiQCLvLAgLkNJ5ZfsZU8wW1OjtZ6qep/view">
+            <a href="https://drive.google.com/file/d/17MTJPltlSidgkFcZZvgkfjfsv1gM4RxJ/view">
               View PDF directly
             </a>
           </iframe>
@@ -62,7 +61,7 @@ const Resume = () => {
 
         <div className="resume-botton">
           <div className="resume-link">
-            <a href="https://drive.google.com/file/d/1cCiQCLvLAgLkNJ5ZfsZU8wW1OjtZ6qep/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/17MTJPltlSidgkFcZZvgkfjfsv1gM4RxJ/view?usp=sharing">
               <i className="fas fa-download"></i>Download Resume
             </a>
           </div>
