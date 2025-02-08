@@ -46,14 +46,14 @@ const Resume = () => {
         {/* PDF Viewer Section */}
         <div className="pdf-viewer-container">
           <iframe
-            src="https://drive.google.com/file/d/17MTJPltlSidgkFcZZvgkfjfsv1gM4RxJ/preview"
+            src="https://drive.google.com/file/d/1oOw44TOMlTX3pzjO16L2BE0YDh8pQMwC/preview"
             width="80%"
             height={iframeHeight}
             title="Resume PDF Viewer"
             allow="autoplay"
           >
             Your browser does not support PDF embeds. 
-            <a href="https://drive.google.com/file/d/17MTJPltlSidgkFcZZvgkfjfsv1gM4RxJ/view">
+            <a href="https://drive.google.com/file/d/1oOw44TOMlTX3pzjO16L2BE0YDh8pQMwC/view">
               View PDF directly
             </a>
           </iframe>
@@ -61,7 +61,7 @@ const Resume = () => {
 
         <div className="resume-botton">
           <div className="resume-link">
-            <a href="https://drive.google.com/file/d/17MTJPltlSidgkFcZZvgkfjfsv1gM4RxJ/view?usp=sharing">
+            <a href="https://drive.google.com/file/d/1oOw44TOMlTX3pzjO16L2BE0YDh8pQMwC/view?usp=sharing">
               <i className="fas fa-download"></i>Download Resume
             </a>
           </div>
