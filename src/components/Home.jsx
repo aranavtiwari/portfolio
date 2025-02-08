@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import VanillaTilt from "vanilla-tilt";
 import Nav from './Nav';
 import img from '../img/logo1.svg'
-
+import { SiLeetcode } from "react-icons/si";
 
 
 function Tilt(props) {
@@ -52,8 +52,13 @@ function Home() {
                             <div className="link-box">
                               <a href="https://github.com/aranavtiwari?tab=repositories"><i class="fab fa-github"></i></a>
                               <a href="https://www.linkedin.com/in/aranavsheel-tiwari-93bb96204/"><i class="fab fa-linkedin"></i></a>
-                              <a href="mailto:aranavstiwari@gmail.com"><i class="far fa-envelope"></i></a>
-                              <a href="https://leetcode.com/u/Aranavsheel/"><i class="fab fas fa-code"></i></a>
+                               
+                              <a 
+                              href="https://mail.google.com/mail/?view=cm&fs=1&to=aranavstiwari@gmail.com"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              ><i class="far fa-envelope"></i></a>
+                              <a href="https://leetcode.com/u/Aranavsheel/"><SiLeetcode className="leetcode-icon" /></a>
                             </div>
                         </li>
 

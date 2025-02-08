@@ -29,10 +29,38 @@ function Tilt(props) {
  };
 
  const skillName = [
-     {class:"float-right", img:pone, heading:"UX/UI", description:"I design the user experience and then style the user interface myself for almost all of the projects I work on.I am flexible in medium and rigid in quality."},
-     { direction:"reverse", class:"float-left", img:ptwo, heading:"Frontend", description:" Have experience in React, Next and HTML5/CSS/JS along with several templating systems.I prefer to write my own components, and styles that go with it. I want to have absolute control over all the pixels." },
-     {class:"float-right",  img:pthree, heading:"Backend", description:"While I obsess over frontend, I also recognize that a lot of the functionality of an app is enabled by it's backend.I have worked with NodeJs,Exprss and MongoDB for backend, with databases, APIs, request handling, etc."},
-     { direction:"reverse", class:"float-left", img:pfour, heading:"General Programming", description:"Given my curious mindset, I have tested the waters of various fields: Databases, Scripting, Web Scraping, DS, Micro-services, CLI tools to name a few.The core of it all is the basic principle of identifying the problem and testing multiple focused approaches till I figure out the optimum solution."}
+     {class:"float-right", 
+        img:pone, 
+        heading:"UX/UI", 
+        description:"I design the user experience and then style the user interface \
+        myself for almost all of the projects I work on.I am flexible in medium and \
+        rigid in quality."
+    },
+
+     { direction:"reverse", 
+        class:"float-left", 
+        img:ptwo, 
+        heading:"Frontend", 
+        description:" Have experience in ReactJS/Tailwind and HTML5/CSS/JS along with several\
+         templating systems.I prefer to write my own components, and styles that go with it.\
+          I want to have absolute control over all the pixels." 
+        },
+     {class:"float-right",  
+        img:pthree, 
+        heading:"Backend", 
+        description:"While I obsess over frontend, I also recognize that a lot of the \
+        functionality of an app is enabled by it's backend.I have worked with NodeJs,Express\
+         and MongoDB for backend, with databases, APIs, request handling, etc."
+        },
+     { direction:"reverse", 
+        class:"float-left", 
+        img:pfour, 
+        heading:"General Programming", 
+        description:"Given my curious mindset, I have tested the waters of various fields: \
+        Databases, Scripting, Web Scraping, DS, Micro-services, CLI tools to name a few.\
+        The core of it all is the basic principle of identifying the problem and testing\
+         multiple focused approaches till I figure out the optimum solution."
+        }
  ];
 
  const skillShow = () => {
