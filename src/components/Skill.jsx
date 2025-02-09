@@ -56,10 +56,9 @@ function Tilt(props) {
         class:"float-left", 
         img:pfour, 
         heading:"General Programming", 
-        description:"Given my curious mindset, I have tested the waters of various fields: \
-        Databases, Scripting, Web Scraping, DS, Micro-services, CLI tools to name a few.\
-        The core of it all is the basic principle of identifying the problem and testing\
-         multiple focused approaches till I figure out the optimum solution."
+        description:"Skilled in Object-Oriented Design, Algorithm Design, and Data Structures,\
+         with a strong ability to analyze and optimize time and space complexity. Adept at problem-solving,\
+          applying efficient algorithms, and leveraging data structures to build scalable and high-performance solutions."
         }
  ];
 
