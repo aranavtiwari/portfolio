@@ -75,7 +75,8 @@ const Projects = () => {
         heading:"Events", 
         description:"Events is a platform where you can views other's personal event's or \
         memories, and you can also share your events and memories.You can give like if you \
-        like any events."},
+        like any events. Utilized ReactJS, CSS for the front‐end, and ExpressJS with \
+        MongoDB for the back‐end."},
    
  ];
 
