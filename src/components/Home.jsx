@@ -58,7 +58,7 @@ function Home() {
                               target="_blank"
                               rel="noopener noreferrer"
                               ><i class="far fa-envelope"></i></a>
-                              <a href="https://leetcode.com/u/Aranavsheel/"><SiLeetcode className="leetcode-icon" /></a>
+                              <a href="https://leetcode.com/u/Aranavsheeltiwari/"><SiLeetcode className="leetcode-icon" /></a>
                             </div>
                         </li>
 
