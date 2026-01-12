@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e78ced9c.css",
-    "main.js": "/portfolio/static/js/main.20c3d437.js",
+    "main.css": "/portfolio/static/css/main.ea4cd44d.css",
+    "main.js": "/portfolio/static/js/main.03623a84.js",
     "static/media/p4.png": "/portfolio/static/media/p4.1fbe9e2f405320db898a.png",
     "static/media/p1.png": "/portfolio/static/media/p1.2eebba601824b57fbfb3.png",
     "static/media/p2.png": "/portfolio/static/media/p2.d5b9362375f12601eb1c.png",
     "static/media/p3.png": "/portfolio/static/media/p3.e027b0afba90f4b2a983.png",
     "static/media/webpandlogo.svg": "/portfolio/static/media/webpandlogo.38be61cc436e42b1b5a218342cc716e1.svg",
+    "static/media/imgsix.png": "/portfolio/static/media/imgsix.c12b3f0f404bbdd3c8af.png",
     "static/media/skilllogo.png": "/portfolio/static/media/skilllogo.3cd236f50be8241ed14b.png",
     "static/media/templogo.svg": "/portfolio/static/media/templogo.88c2f8796b39b461cdb7a3771f485151.svg",
     "static/media/tttlogo.svg": "/portfolio/static/media/tttlogo.b25d7da6641cace13b06da5de1317eac.svg",
@@ -15,11 +16,11 @@
     "static/media/eventlogo.svg": "/portfolio/static/media/eventlogo.17a956991f39a334d7989289b92121e4.svg",
     "index.html": "/portfolio/index.html",
     "static/media/worldaffairlogo.svg": "/portfolio/static/media/worldaffairlogo.925f96b98da9b4924119132112d917f7.svg",
-    "main.e78ced9c.css.map": "/portfolio/static/css/main.e78ced9c.css.map",
-    "main.20c3d437.js.map": "/portfolio/static/js/main.20c3d437.js.map"
+    "main.ea4cd44d.css.map": "/portfolio/static/css/main.ea4cd44d.css.map",
+    "main.03623a84.js.map": "/portfolio/static/js/main.03623a84.js.map"
   },
   "entrypoints": [
-    "static/css/main.e78ced9c.css",
-    "static/js/main.20c3d437.js"
+    "static/css/main.ea4cd44d.css",
+    "static/js/main.03623a84.js"
   ]
 }
