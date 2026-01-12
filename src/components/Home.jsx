@@ -2,33 +2,34 @@ import React, { useEffect, useRef } from "react";
 import ReactDOM from "react-dom";
 import VanillaTilt from "vanilla-tilt";
 import Nav from './Nav';
+import CatChaser from './CatChaser';
 import img from '../img/logo1.svg'
 import { SiLeetcode } from "react-icons/si";
 
 
 function Tilt(props) {
-  const { options, ...rest } = props;
-  const tilt = useRef(null);
+    const { options, ...rest } = props;
+    const tilt = useRef(null);
 
-  useEffect(() => {
-    VanillaTilt.init(tilt.current, options);
-  }, [options]);
+    useEffect(() => {
+        VanillaTilt.init(tilt.current, options);
+    }, [options]);
 
-  return <div ref={tilt} {...rest} />;
+    return <div ref={tilt} {...rest} />;
 }
 
 function Home() {
-  const options = {
-    scale: 1.2,
-    speed: 7000,
-    max: 24,
-    gyroscope: false, 
-  };
+    const options = {
+        scale: 1.2,
+        speed: 7000,
+        max: 24,
+        gyroscope: false,
+    };
 
-  return (
-    <>
-        
-        <Nav/>
+    return (
+        <>
+            <CatChaser />
+            <Nav />
             <div className="container">
                 <div className="container-right">
                     <ul className="container-right-content">
@@ -39,13 +40,13 @@ function Home() {
                             A Software Developer
                         </li>
                         <li className="container-right-text">
-                            I like to code, design,<br/> sometime writes
+                            I like to code, design,<br /> sometime writes
                         </li>
                         <li className="container-right-text">
-                            I love music, games, book, art <br/> and nature
+                            I love music, games, book, art <br /> and nature
                         </li>
                         <li className="container-right-text">
-                            I prefer to listen and think,<br/> watch and learn
+                            I prefer to listen and think,<br /> watch and learn
                         </li>
                         <li className="container-right-text">
 
@@ -58,18 +59,18 @@ function Home() {
                         </li>
 
                     </ul>
-                    
+
                 </div>
                 <div className="container-left">
-                    
-                <Tilt className="box" options={options} >
-                   <img src={img} alt="" className="img"/>
-                </Tilt> 
-                
-                </div>    
-            </div>   
-    </>
-  );
+
+                    <Tilt className="box" options={options} >
+                        <img src={img} alt="" className="img" />
+                    </Tilt>
+
+                </div>
+            </div>
+        </>
+    );
 }
 
 export default Home;

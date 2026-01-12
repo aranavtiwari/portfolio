@@ -1,0 +1,290 @@
+/* ========================================
+   PROJECTS/EXPERIENCE COMPONENT STYLES
+   ======================================== */
+
+.project-container {
+    -webkit-animation: right 2s;
+    animation: right 2s;
+}
+
+.project-container .img-skill {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.project-container .img-skill .box {
+    border-radius: 50%;
+}
+
+.project-container .img-skill .box .logo {
+    text-align: center;
+    background: -webkit-gradient(linear, left top, right top, from(#4F45C5), to(#DC097B));
+    background: linear-gradient(to right, #4F45C5 0%, #DC097B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8rem;
+}
+
+.project-container .img-skill .box .logo-des {
+    text-align: center;
+}
+
+/* Custom cursor for Tilt hover - using 64x64 resized arrow image */
+.project-container .img-skill .box {
+    cursor: url('../img/arrow-cursor.svg') 32 32, pointer;
+}
+
+.project-container .project-outer {
+    margin-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+/* Glassmorphism Project Cards */
+.project-container .project {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 3rem 4rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* Glassmorphism Effect */
+    background: rgba(23, 25, 38, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(220, 9, 123, 0.12);
+    border-radius: 2rem;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        0 0 20px rgba(220, 9, 123, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 3rem;
+    align-items: center;
+}
+
+.project-container .project:hover {
+    border-color: rgba(220, 9, 123, 0.35);
+    box-shadow:
+        0 12px 48px rgba(0, 0, 0, 0.4),
+        0 0 40px rgba(220, 9, 123, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    transform: translateY(-4px);
+}
+
+/* For projects with float-right, keep description left-aligned */
+.project-container .project-left .float-right.description {
+    text-align: left !important;
+}
+
+.project-container .project-left {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 55%;
+    padding: 1rem;
+}
+
+.project-container .project-left h1 {
+    color: #db647b;
+    letter-spacing: -2px;
+    font-size: 3.2rem;
+    margin-bottom: 0.8rem;
+    text-shadow: 0 0 30px rgba(219, 100, 123, 0.2);
+}
+
+.project-container .project-left .role {
+    font-size: 1.3rem;
+    font-weight: 500;
+    display: inline-block;
+    padding: 0.6rem 1.4rem;
+    border-radius: 5rem;
+    color: #0e111a;
+    background: linear-gradient(135deg, #db647b 0%, #b84d62 100%);
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 15px rgba(219, 100, 123, 0.3);
+}
+
+.project-container .project-left p {
+    font-size: 2rem;
+    line-height: 3.2rem;
+    font-weight: 300;
+}
+
+.project-container .project-left .link {
+    max-width: 600px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+    justify-content: flex-start;
+}
+
+.project-container .project-left .link .linkweb {
+    text-decoration: none;
+    font-size: 1.6rem;
+    background: rgba(26, 29, 44, 0.8);
+    backdrop-filter: blur(8px);
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    color: #9da1ab;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.8rem;
+    border: 1px solid rgba(141, 145, 157, 0.15);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.project-container .project-left .link .linkweb:hover {
+    color: #db647b;
+    border-color: rgba(219, 100, 123, 0.4);
+    -webkit-transform: scale(1.05) translateY(-2px);
+    transform: scale(1.05) translateY(-2px);
+    text-shadow: 0px 0px 15px rgba(219, 100, 123, 0.6);
+    box-shadow: 0 8px 25px rgba(219, 100, 123, 0.2);
+}
+
+.project-container .project-left .link .linkweb .fab,
+.project-container .project-left .link .linkweb .fas {
+    margin-right: 0.5rem;
+    font-size: 1.4rem;
+}
+
+.project-container .project-right {
+    width: 45%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Consistent Image Container with Glass Effect */
+.project-container .project-right .img {
+    width: 22rem;
+    height: 22rem;
+    object-fit: contain;
+    padding: 2rem;
+    background: rgba(45, 47, 65, 0.4);
+    border-radius: 1.5rem;
+    border: 1px solid rgba(141, 145, 157, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+}
+
+.project-container .project:hover .project-right .img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3), 0 0 20px rgba(220, 9, 123, 0.1);
+}
+
+/* Mobile Responsive */
+@media (max-width: 770px) {
+    .project-container .img-skill {
+        height: 70vh;
+        margin-top: 2rem;
+    }
+
+    .project-container .img-skill .img {
+        width: 30rem;
+        height: 30rem;
+        -webkit-animation: none;
+        animation: none;
+    }
+
+    .project-container .project {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        max-width: 90%;
+        padding: 2.5rem 2rem;
+        margin: 2rem auto;
+        gap: 2rem;
+    }
+
+    .project-container .project-left {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .project-container .project-left h1 {
+        text-align: center;
+        font-size: 2.8rem;
+        letter-spacing: 0rem;
+    }
+
+    .project-container .project-left .role {
+        display: block;
+        text-align: center;
+        margin: 1rem auto;
+        width: fit-content;
+    }
+
+    .project-container .project-left p {
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .project-container .project-left .link {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 1rem 0;
+    }
+
+    .project-container .project-left .link .linkweb {
+        font-size: 1.3rem;
+        padding: 0.8rem 1.5rem;
+    }
+
+    .project-container .project-right {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .project-container .project-right .img {
+        width: 16rem;
+        height: 16rem;
+        padding: 1.5rem;
+    }
+
+    .float-right {
+        text-align: center;
+    }
+
+    .float-left {
+        text-align: center;
+    }
+
+    #reverse {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+}

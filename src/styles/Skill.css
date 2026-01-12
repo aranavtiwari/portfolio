@@ -1,0 +1,215 @@
+/* ========================================
+   SKILL COMPONENT STYLES
+   ======================================== */
+
+.skill-container {
+    -webkit-animation: right 2s;
+    animation: right 2s;
+}
+
+.skill-container .img-skill {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.skill-container .img-skill .box {
+    border-radius: 50%;
+    cursor: url('../img/arrow-cursor.svg') 32 32, pointer;
+}
+
+.skill-container .img-skill .box .logo {
+    text-align: center;
+    background: -webkit-gradient(linear, left top, right top, from(#4F45C5), to(#DC097B));
+    background: linear-gradient(to right, #4F45C5 0%, #DC097B 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 8rem;
+}
+
+.skill-container .img-skill .box .logo-des {
+    text-align: center;
+}
+
+.skill-container .skill-outer {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+/* Glassmorphism Skill Cards */
+.skill-container .skill {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 4rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 3rem 4rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    /* Glassmorphism Effect */
+    background: rgba(23, 25, 38, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(220, 9, 123, 0.12);
+    border-radius: 2rem;
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        0 0 20px rgba(220, 9, 123, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.05);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    gap: 3rem;
+    align-items: center;
+}
+
+.skill-container .skill:hover {
+    border-color: rgba(220, 9, 123, 0.35);
+    box-shadow:
+        0 12px 48px rgba(0, 0, 0, 0.4),
+        0 0 40px rgba(220, 9, 123, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    transform: translateY(-4px);
+}
+
+.skill-container .skill-left {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 55%;
+    padding: 1rem;
+}
+
+.skill-container .skill:hover .skill-left h1 {
+    text-decoration: none;
+    text-shadow: 0 0 20px rgba(219, 100, 123, 0.5);
+}
+
+.skill-container .skill-left h1 {
+    color: #db647b;
+    letter-spacing: -2px;
+    font-size: 3.2rem;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0.8rem;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 30px rgba(219, 100, 123, 0.2);
+}
+
+.skill-container .skill:hover .skill-left h1::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #db647b, #DC097B);
+    box-shadow: 0 0 15px #db647b;
+    animation: neonGlow 2s ease-out;
+}
+
+.skill-container .skill-left p {
+    font-size: 1.7rem;
+    line-height: 3rem;
+    font-weight: 300;
+    color: #9da1ab;
+    letter-spacing: 0.2px;
+}
+
+.skill-container .skill-right {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+/* Consistent Image Container with Glass Effect */
+.skill-container .skill-right .img {
+    width: 22rem;
+    height: 22rem;
+    object-fit: contain;
+    padding: 2rem;
+    background: rgba(45, 47, 65, 0.4);
+    border-radius: 1.5rem;
+    border: 1px solid rgba(141, 145, 157, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+}
+
+.skill-container .skill:hover .skill-right .img {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3), 0 0 20px rgba(220, 9, 123, 0.1);
+}
+
+/* For skills with float-right, keep description left-aligned */
+.skill-container .skill-left .float-right.description {
+    text-align: left !important;
+}
+
+/* Mobile Responsive */
+@media (max-width: 770px) {
+    .skill-container .img-skill {
+        height: 70vh;
+        margin-top: 2rem;
+    }
+
+    .skill-container .img-skill .img {
+        width: 30rem;
+        height: 30rem;
+        -webkit-animation: none;
+        animation: none;
+    }
+
+    .skill-container .skill {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        max-width: 90%;
+        padding: 2.5rem 2rem;
+        margin: 2rem auto;
+        gap: 2rem;
+    }
+
+    .skill-container .skill-left {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .skill-container .skill-left h1 {
+        text-align: center;
+        font-size: 2.8rem;
+        letter-spacing: 0rem;
+    }
+
+    .skill-container .skill-left p {
+        text-align: left;
+        font-size: 1.6rem;
+    }
+
+    .skill-container .skill-right {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .skill-container .skill-right .img {
+        width: 16rem;
+        height: 16rem;
+        padding: 1.5rem;
+    }
+}

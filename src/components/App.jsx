@@ -1,17 +1,19 @@
 import React from "react";
-import { HashRouter  as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 import Home from "./Home";
 import Projects from "./Projects";
 import Resume from "./Resume";
 import Skill from "./Skill";
 import Random from "./Random";
-import ScrollToTop from "./ScrollToTop"; // Import ScrollToTop component
+import ScrollToTop from "./ScrollToTop";
+import ThemeToggle from "./ThemeToggle";
 
 const App = () => {
   return (
     <Router basename="/portfolio">
       <ScrollToTop />
+      <ThemeToggle />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/projects" exact component={Projects} />

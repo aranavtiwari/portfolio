@@ -1,0 +1,150 @@
+/* ========================================
+   BASE STYLES
+   - Fonts, reset, body, shared utilities
+   ======================================== */
+
+/* Coding-style fonts */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Fira+Code:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+
+/* Legacy font (keeping as fallback) */
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap");
+
+:root {
+    /* Font families */
+    --font-primary: "JetBrains Mono", "Fira Code", "Consolas", monospace;
+    --font-code: "Fira Code", "JetBrains Mono", monospace;
+    --font-display: "Space Mono", "JetBrains Mono", monospace;
+    --font-fallback: "Josefin Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 2.8rem;
+    color: #8d919d;
+    background: #0e111a;
+    overscroll-behavior: none;
+    margin: 0;
+    font-family: var(--font-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+}
+
+/* Headings with coding font */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+/* Code-like styling for specific elements */
+.logo,
+.role {
+    font-family: var(--font-code);
+}
+
+/* Paragraph text */
+p {
+    font-family: var(--font-primary);
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+/* ========================================
+   SHARED ANIMATIONS
+   ======================================== */
+
+@-webkit-keyframes right {
+    0% {
+        opacity: 0;
+        tranform: translatey(100px, 100px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes right {
+    0% {
+        opacity: 0;
+        tranform: translatey(100px, 100px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes neonGlow {
+    0% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.8;
+    }
+}
+
+@keyframes activeGlow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px #14b8a6, 0 0 15px #14b8a6, inset 0 0 5px rgba(20, 184, 166, 0.8);
+    }
+
+    50% {
+        box-shadow: 0 0 15px #14b8a6, 0 0 25px #14b8a6, inset 0 0 8px rgba(20, 184, 166, 1);
+    }
+}
+
+/* ========================================
+   SHARED UTILITIES
+   ======================================== */
+
+.float-right {
+    text-align: right;
+}
+
+.float-left {
+    text-align: left;
+}
+
+#reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.description {
+    font-size: 1.7rem;
+    line-height: 3rem !important;
+    font-weight: 300;
+    color: #9da1ab;
+    margin: 1.5rem 0;
+    letter-spacing: 0.2px;
+    text-align: left !important;
+}
