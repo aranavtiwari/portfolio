@@ -611,7 +611,25 @@ body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+.description {
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 300;
+  color: #8d919d;
+  margin: 1.5rem 0;
+  letter-spacing: 0.5px;
+  text-align: left !important;
+}
 
+/* For projects with float-right, keep description left-aligned */
+.project-container .project-left .float-right.description {
+  text-align: left !important;
+}
+
+/* For skills with float-right, keep description left-aligned */
+.skill-container .skill-left .float-right.description {
+  text-align: left !important;
+}
 .project-container .project-left {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

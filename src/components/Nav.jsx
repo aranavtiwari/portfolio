@@ -44,7 +44,7 @@ function Nav() {
             {isScrolling ? <FaHome className="nav-icon" /> : 'Home'}
           </Link>
           <Link to="/projects" className="link">
-            {isScrolling ? <FaProjectDiagram className="nav-icon" /> : 'Projects'}
+            {isScrolling ? <FaProjectDiagram className="nav-icon" /> : 'Experience'}
           </Link>
           <Link to="/skill" className="link">
             {isScrolling ? <FaCode className="nav-icon" /> : 'Skills'}
@@ -53,7 +53,7 @@ function Nav() {
             {isScrolling ? <FaFileDownload className="nav-icon" /> : 'Resume'}
           </Link>
           <Link to="/random" className="link">
-            {isScrolling ? <FaRandom className="nav-icon" /> : 'Random'}
+            {isScrolling ? <FaRandom className="nav-icon" /> : 'Projects'}
           </Link>
         </div>
       </div>

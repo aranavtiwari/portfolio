@@ -19,19 +19,17 @@
     "react-scripts": "^5.0.1",
     "react-vanilla-tilt": "^1.0.0",
     "react-webpack": "^0.4.1",
-    "sass": "^1.32.5",
-    "scss": "^0.2.4",
     "vanilla-tilt": "^1.7.0",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
-  "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-  "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
