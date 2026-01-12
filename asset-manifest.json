@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.dcb0ad6c.css",
-    "main.js": "/portfolio/static/js/main.51a92de0.js",
+    "main.css": "/portfolio/static/css/main.e78ced9c.css",
+    "main.js": "/portfolio/static/js/main.0c3f8f98.js",
     "static/media/p4.png": "/portfolio/static/media/p4.1fbe9e2f405320db898a.png",
     "static/media/p1.png": "/portfolio/static/media/p1.2eebba601824b57fbfb3.png",
     "static/media/p2.png": "/portfolio/static/media/p2.d5b9362375f12601eb1c.png",
@@ -15,11 +15,11 @@
     "static/media/eventlogo.svg": "/portfolio/static/media/eventlogo.17a956991f39a334d7989289b92121e4.svg",
     "index.html": "/portfolio/index.html",
     "static/media/worldaffairlogo.svg": "/portfolio/static/media/worldaffairlogo.925f96b98da9b4924119132112d917f7.svg",
-    "main.dcb0ad6c.css.map": "/portfolio/static/css/main.dcb0ad6c.css.map",
-    "main.51a92de0.js.map": "/portfolio/static/js/main.51a92de0.js.map"
+    "main.e78ced9c.css.map": "/portfolio/static/css/main.e78ced9c.css.map",
+    "main.0c3f8f98.js.map": "/portfolio/static/js/main.0c3f8f98.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcb0ad6c.css",
-    "static/js/main.51a92de0.js"
+    "static/css/main.e78ced9c.css",
+    "static/js/main.0c3f8f98.js"
   ]
 }
