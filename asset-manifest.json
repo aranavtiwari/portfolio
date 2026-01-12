@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ea4cd44d.css",
-    "main.js": "/portfolio/static/js/main.03623a84.js",
+    "main.css": "/portfolio/static/css/main.4584c8e7.css",
+    "main.js": "/portfolio/static/js/main.11e6322f.js",
     "static/media/p4.png": "/portfolio/static/media/p4.1fbe9e2f405320db898a.png",
     "static/media/p1.png": "/portfolio/static/media/p1.2eebba601824b57fbfb3.png",
     "static/media/p2.png": "/portfolio/static/media/p2.d5b9362375f12601eb1c.png",
@@ -13,14 +13,17 @@
     "static/media/tttlogo.svg": "/portfolio/static/media/tttlogo.b25d7da6641cace13b06da5de1317eac.svg",
     "static/media/logo1.svg": "/portfolio/static/media/logo1.081d6d5fe199f14fe61c4a41addc32a1.svg",
     "static/media/snakelogo.svg": "/portfolio/static/media/snakelogo.f7a84502f48fa9fc5d9983a4b925fe74.svg",
+    "static/media/cat.svg": "/portfolio/static/media/cat.9ed818202c8a40bf8dc32972680b1d88.svg",
     "static/media/eventlogo.svg": "/portfolio/static/media/eventlogo.17a956991f39a334d7989289b92121e4.svg",
     "index.html": "/portfolio/index.html",
+    "static/media/arrow-cursor.svg": "/portfolio/static/media/arrow-cursor.2a2053d5df50590be71e.svg",
     "static/media/worldaffairlogo.svg": "/portfolio/static/media/worldaffairlogo.925f96b98da9b4924119132112d917f7.svg",
-    "main.ea4cd44d.css.map": "/portfolio/static/css/main.ea4cd44d.css.map",
-    "main.03623a84.js.map": "/portfolio/static/js/main.03623a84.js.map"
+    "static/media/arrow-cursor-grey.svg": "/portfolio/static/media/arrow-cursor-grey.ab697c9f90f3c17d9844.svg",
+    "main.4584c8e7.css.map": "/portfolio/static/css/main.4584c8e7.css.map",
+    "main.11e6322f.js.map": "/portfolio/static/js/main.11e6322f.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea4cd44d.css",
-    "static/js/main.03623a84.js"
+    "static/css/main.4584c8e7.css",
+    "static/js/main.11e6322f.js"
   ]
 }

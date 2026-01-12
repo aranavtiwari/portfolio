@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Cat body (side view) - Golden color -->
+  <ellipse cx="32" cy="32" rx="18" ry="12" fill="#D4A547"/>
+  
+  <!-- Cat head -->
+  <circle cx="50" cy="24" r="10" fill="#D4A547"/>
+  
+  <!-- Ears -->
+  <path d="M44 16 L46 8 L50 14 Z" fill="#D4A547"/>
+  <path d="M45 15 L46 10 L49 14 Z" fill="#C4944A"/>
+  <path d="M52 14 L56 6 L58 14 Z" fill="#D4A547"/>
+  <path d="M53 13 L56 8 L57 13 Z" fill="#C4944A"/>
+  
+  <!-- Eye -->
+  <ellipse cx="52" cy="22" rx="2.5" ry="3" fill="#0e111a"/>
+  <circle cx="53" cy="21" r="1" fill="white"/>
+  
+  <!-- Nose -->
+  <ellipse cx="58" cy="26" rx="2" ry="1.5" fill="#E8B4A0"/>
+  
+  <!-- Whiskers -->
+  <line x1="58" y1="24" x2="64" y2="22" stroke="#8B7355" stroke-width="0.8"/>
+  <line x1="58" y1="26" x2="64" y2="26" stroke="#8B7355" stroke-width="0.8"/>
+  <line x1="58" y1="28" x2="64" y2="30" stroke="#8B7355" stroke-width="0.8"/>
+  
+  <!-- Tail -->
+  <path d="M14 28 Q6 20 8 12" fill="none" stroke="#D4A547" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Front legs -->
+  <path class="leg front-left" d="M42 42 L44 54" stroke="#D4A547" stroke-width="4" stroke-linecap="round"/>
+  <path class="leg front-right" d="M36 42 L32 54" stroke="#D4A547" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Back legs -->
+  <path class="leg back-left" d="M26 42 L28 54" stroke="#D4A547" stroke-width="4" stroke-linecap="round"/>
+  <path class="leg back-right" d="M20 42 L16 54" stroke="#D4A547" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Paws -->
+  <ellipse class="paw front-left" cx="44" cy="56" rx="3" ry="2" fill="#E8B4A0"/>
+  <ellipse class="paw front-right" cx="32" cy="56" rx="3" ry="2" fill="#E8B4A0"/>
+  <ellipse class="paw back-left" cx="28" cy="56" rx="3" ry="2" fill="#E8B4A0"/>
+  <ellipse class="paw back-right" cx="16" cy="56" rx="3" ry="2" fill="#E8B4A0"/>
+</svg>
