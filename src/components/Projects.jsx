@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import Nav from './Nav'
 import imgone from '../img/worldaffairlogo.svg';
 import imgtwo from '../img/webpandlogo.svg';
-import imgthree from '../img/eventlogo.svg';
+import imgsix from '../img/imgsix.png';
 import VanillaTilt from "vanilla-tilt";
 
 function Tilt(props) {
@@ -36,7 +36,7 @@ const Projects = () => {
         class:"float-left", 
         direction:"reverse",
         rolecss:"role", 
-        img:imgthree,
+        img:imgsix,
         role:"Software Engineer l", 
         heading:"CROSS-ASSET TRADING AND RISK PLATFORM", 
         description:"Formerly known as Front Arena, it is a product of FIS where financial \
@@ -89,14 +89,14 @@ const Projects = () => {
         <div className="project-left">
             <h1 className={data.class}>{data.heading}</h1>
             <h2 className={data.rolecss}>{data.role}</h2>
-            <p className={`${data.class} description`}>{data.description}</p>
+            <p className="description">{data.description}</p>
             <div className="link">
-                <a href={data.weblink} className={data.link} target="_blank"><i class={data.iconweb}/>{data.nameweb}</a>
-                <a href={data.gitlink} className={data.link} target="_blank"><i class={data.icongit}/>{data.gitname}</a>
+                <a href={data.weblink} className={data.link} target="_blank" rel="noopener noreferrer"><i className={data.iconweb}/>{data.nameweb}</a>
+                {data.gitlink && <a href={data.gitlink} className={data.link} target="_blank" rel="noopener noreferrer"><i className={data.icongit}/>{data.gitname}</a>}
             </div>
         </div>
         <div className="project-right">
-            <img src={data.img} className="img" />
+            <img src={data.img} className="img" alt={data.heading} />
         </div>
         </div>
       )
