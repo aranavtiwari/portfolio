@@ -50,13 +50,10 @@ function Home() {
                         <li className="container-right-text">
 
                             <div className="link-box">
-                              <a href="https://github.com/aranavtiwari?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
-                              <a href="https://www.linkedin.com/in/aranavsheel-tiwari-93bb96204/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                               
-                              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aranavstiwari@gmail.com" target="_blank" rel="noopener noreferrer">
-                                    <i class="far fa-envelope"></i>
-                            </a>
-                              <a href="https://leetcode.com/u/Aranavsheeltiwari/" target="_blank"><SiLeetcode className="leetcode-icon" /></a>
+                                <a href="https://github.com/aranavtiwari?tab=repositories" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/aranavsheel-tiwari-93bb96204/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=aranavstiwari@gmail.com" target="_blank" rel="noopener noreferrer"><i class="far fa-envelope"></i></a>
+                                <a href="https://leetcode.com/u/Aranavsheeltiwari/" target="_blank" rel="noopener noreferrer"><SiLeetcode className="leetcode-icon" /></a>
                             </div>
                         </li>
 
