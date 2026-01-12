@@ -1,16 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import {BrowserRouter} from 'react-router-dom'
 
 
 import App from './components/App';
 import "./App.css";
 
-ReactDOM.render(
-   <BrowserRouter >
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+   <React.StrictMode>
+      <BrowserRouter>
         <App/>
-     </BrowserRouter>     
-    ,
-    document.querySelector('#root')
+      </BrowserRouter>
+   </React.StrictMode>
 )
 // basename={process.env.PUBLIC_URL}
